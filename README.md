@@ -15,7 +15,7 @@ I created a machine learning algorithm to predict sentiment, and then integrated
 
 ## How I built it
 
-I built the algorithm using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. After feature analysis and testing, I created the frontend with React. I used React-bootstrap for the CSS elements and then moved on to the backend. This was created using Flask. I created an API to process the data that the user enters and predict the sentiment.
+I built the algorithm using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. After feature analysis and testing, I used a TFIDF vectorizer and tested various parameter settings with GridSearchCV as well as a 5-fold cross validation. I ended up with 80% accuracy. Then, I created the frontend with React. I used React-bootstrap for the CSS elements and then moved on to the backend. This was created using Flask. I created a function to process the data that the user enters and predict the sentiment.
 
 Example images:
 
